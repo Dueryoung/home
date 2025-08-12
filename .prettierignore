@@ -1,0 +1,12 @@
+# 依赖目录
+node_modules/
+# Nuxt 构建产物
+.nuxt/
+dist/
+.output/
+# 环境变量文件
+.env
+.env.*
+!.env.example  # 仅排除 .env* 但保留 .env.example
+# 其他临时文件
+*.log
